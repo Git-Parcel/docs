@@ -9,7 +9,7 @@ title: LaTeX
 > ```md
 > $f = ma$
 > ```
-> 
+>
 > $f = ma$
 
 块级公式：
@@ -19,9 +19,11 @@ title: LaTeX
 > g = G\frac{M_1M_2}{d^2}
 > $$
 > ```
+>
 > $$
-> g = G\frac{M_1M_2}{d^2}
-> $$
+>
+>> g = G\frac{M_1M_2}{d^2}
+>> $$
 
 ## 矩阵
 

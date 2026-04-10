@@ -1,6 +1,6 @@
 ---
 title: Git Parcel
-  
+
 layout: home
 hero:
   name: Git Parcel Docs

@@ -1,7 +1,7 @@
 import { defineLocale } from './utils/locale.ts'
 
 export default {
-  'zh_cn': defineLocale({
+  zh_cn: defineLocale({
     lang: 'zh_cn',
     translation: {
       label: '简体中文',
@@ -25,7 +25,7 @@ export default {
       },
     },
   }),
-  'en_us': defineLocale({
+  en_us: defineLocale({
     lang: 'en_us',
     translation: {
       label: 'English',

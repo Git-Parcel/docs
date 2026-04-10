@@ -9,7 +9,7 @@ Inline formulas:
 > ```md
 > $f = ma$
 > ```
-> 
+>
 > $f = ma$
 
 Block-level formulas:
@@ -19,9 +19,11 @@ Block-level formulas:
 > g = G\frac{M_1M_2}{d^2}
 > $$
 > ```
+>
 > $$
-> g = G\frac{M_1M_2}{d^2}
-> $$
+>
+>> g = G\frac{M_1M_2}{d^2}
+>> $$
 
 ## Matrices
 
@@ -98,10 +100,10 @@ $$
 || English Name | LaTeX | Common Usage Example | Remarks |
 | :------------ | :------ | :------------------- | :------ |
 | **Subset** | `$\subseteq$` / `\sqsubseteq` | $A \subseteq B$ | Denotes subset relation (equality allowed). |
-| **Proper Subset** | `$\subsetneq$`, `$\subset` (old)` | $A \subsetneq B$ | Denotes proper subset (not equal). |
-| **Equivalence Class** | `[\cdot]`, `\{\cdot\}` | $[x]_\sim$, $\{x, y\}$ | Brackets with subscript denote classes under equivalence relations. |
-| **Open/Closed Set** | `$\text{Int}(A)$`, `$\text{Cl}(A)$` | $U \in \mathcal{T}$, $\partial A$ | Commonly used in topology, $\partial$ denotes boundary. |
-| **Point in Set** | `$\bullet$`, `$\odot$` | $x \in S$, $\bullet \in D$ | Sometimes used in geometric diagrams to indicate a point inside a region. |
+| **Proper Subset** | `$\subsetneq$`, `$\subset` (old)`| $A \subsetneq B$ | Denotes proper subset (not equal). |
+| **Equivalence Class** |`[\cdot]`,`\{\cdot\}`| $[x]_\sim$, $\{x, y\}$ | Brackets with subscript denote classes under equivalence relations. |
+| **Open/Closed Set** |` $\text{Int}(A)$ `,` $\text{Cl}(A)$ `| $U \in \mathcal{T}$, $\partial A$ | Commonly used in topology, $\partial$ denotes boundary. |
+| **Point in Set** |` $\bullet$ `,` $\odot$` | $x \in S$, $\bullet \in D$ | Sometimes used in geometric diagrams to indicate a point inside a region. |
 
 ### Inequality and Limit Symbols
 

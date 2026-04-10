@@ -47,21 +47,21 @@ Edit `docs/.vitepress/locales.ts` to add the new language configuration:
 import { defineLocale } from './utils/locale.ts'
 
 export default {
-  'zh_cn': defineLocale({
+  zh_cn: defineLocale({
     lang: 'zh_cn',
     translation: {
       label: '简体中文',
       // ...
     },
   }),
-  'en_us': defineLocale({
+  en_us: defineLocale({
     lang: 'en_us',
     translation: {
       label: 'English',
       // ...
     },
   }),
-  'ru_ru': defineLocale({
+  ru_ru: defineLocale({
     lang: 'ru_ru',
     translation: {
       label: 'Русский',
