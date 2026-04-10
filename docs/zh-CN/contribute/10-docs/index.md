@@ -4,6 +4,8 @@ title: 文档贡献指南
 
 # Git Parcel 文档贡献指南
 
+本文档使用 [VitePress](https://vitepress.dev/) 构建，通过 [Github Pages](https://docs.github.com/en/pages) 部署在 https://git-parcel.github.io/docs/
+
 > [!IMPORTANT] 多语言支持
 > 目前作者会优先更新中文版本，因此建议贡献其他语言文档时，应考虑与其保持一致。
 >
@@ -17,9 +19,10 @@ title: 文档贡献指南
 - [贡献翻译](./20-translate)：添加新的语言支持
 - [贡献网页框架](./30-framework)：例如修改导航栏结构、搜索逻辑、侧边栏生成逻辑等
 
-## 参考
+无论你选择哪种方式，都建议先简单了解一下[本项目架构](./00-arch)
 
-- [文档项目架构](./00-arch)
+参考：
+
 - [本项目中可用的 Markdown 语法手册](./99-markdown)
 
 ## 开发环境

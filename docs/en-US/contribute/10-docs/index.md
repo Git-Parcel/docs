@@ -4,6 +4,8 @@ title: Documentation Contribution Guide
 
 # Git Parcel Documentation Contribution Guide
 
+This documentation is built using [VitePress](https://vitepress.dev/) and deployed via [Github Pages](https://docs.github.com/en/pages) at https://git-parcel.github.io/docs/
+
 > [!IMPORTANT] Multilingual Support
 > Currently, the author prioritizes updating the Chinese version, so when contributing documentation in other languages, it is recommended to keep it consistent with the Chinese version.
 >
@@ -17,9 +19,10 @@ There are several ways to contribute to the documentation:
 - [Contribute Translation](./20-translate): Add support for new languages.
 - [Contribute Web Framework](./30-framework): For example, modify navigation bar structure, search logic, sidebar generation logic, etc.
 
-## References
+No matter which way you choose, it is recommended to first briefly understand the [project architecture](./00-arch)
 
-- [Documentation Project Architecture](./00-arch)
+References:
+
 - [Markdown Syntax Handbook Available in This Project](./99-markdown)
 
 ## Development Environment
