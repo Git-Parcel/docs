@@ -139,7 +139,7 @@ function getLink(file: PathLike, base: PathLike) {
   file = Path.from(file)
   base = Path.from(base)
 
-  return file.relative(base)
+  return '/' + file.relative(base)
     .toString()
     .replace(/(^\/*)|(\/*$)/g, '') // remove leading and trailing slashes
     .replace(/\.md$/g, '') // remove .md suffix
