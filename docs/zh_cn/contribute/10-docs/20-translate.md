@@ -12,8 +12,8 @@ title: 翻译贡献指南
 
 ```
 docs/
-├── zh-CN/          # 中文文档
-├── en-US/          # 英文文档
+├── zh_cn/          # 中文文档
+├── en_us/          # 英文文档
 └── <新语言>/       # 其他语言
 ```
 
@@ -36,7 +36,7 @@ mkdir docs/<lang>
 例如添加俄语：
 
 ```sh
-mkdir docs/ru-RU
+mkdir docs/ru_ru
 ```
 
 ### 在配置中注册语言
@@ -47,22 +47,22 @@ mkdir docs/ru-RU
 import { defineLocale } from './utils/locale.ts'
 
 export default {
-  'zh-CN': defineLocale({
-    lang: 'zh-CN',
+  'zh_cn': defineLocale({
+    lang: 'zh_cn',
     translation: {
       label: '简体中文',
       // ...
     },
   }),
-  'en-US': defineLocale({
-    lang: 'en-US',
+  'en_us': defineLocale({
+    lang: 'en_us',
     translation: {
       label: 'English',
       // ...
     },
   }),
-  'ru-RU': defineLocale({
-    lang: 'ru-RU',
+  'ru_ru': defineLocale({
+    lang: 'ru_ru',
     translation: {
       label: 'Русский',
       // ...
@@ -76,7 +76,7 @@ export default {
 复制现有语言目录的结构到新目录：
 
 ```sh
-cp -r docs/zh-CN/* docs/<lang>/
+cp -r docs/zh_cn/* docs/<lang>/
 ```
 
 ### 翻译文档

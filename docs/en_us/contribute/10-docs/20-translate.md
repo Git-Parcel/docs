@@ -12,8 +12,8 @@ The documentation uses a multi-language directory structure, with each language 
 
 ```
 docs/
-├── zh-CN/          # Chinese documentation
-├── en-US/          # English documentation
+├── zh_cn/          # Chinese documentation
+├── en_us/          # English documentation
 └── <new-lang>/     # Other languages
 ```
 
@@ -36,7 +36,7 @@ mkdir docs/<lang>
 For example, to add Russian:
 
 ```sh
-mkdir docs/ru-RU
+mkdir docs/ru_ru
 ```
 
 ### Register Language in Configuration
@@ -47,22 +47,22 @@ Edit `docs/.vitepress/locales.ts` to add the new language configuration:
 import { defineLocale } from './utils/locale.ts'
 
 export default {
-  'zh-CN': defineLocale({
-    lang: 'zh-CN',
+  'zh_cn': defineLocale({
+    lang: 'zh_cn',
     translation: {
       label: '简体中文',
       // ...
     },
   }),
-  'en-US': defineLocale({
-    lang: 'en-US',
+  'en_us': defineLocale({
+    lang: 'en_us',
     translation: {
       label: 'English',
       // ...
     },
   }),
-  'ru-RU': defineLocale({
-    lang: 'ru-RU',
+  'ru_ru': defineLocale({
+    lang: 'ru_ru',
     translation: {
       label: 'Русский',
       // ...
@@ -76,7 +76,7 @@ export default {
 Copy the structure of an existing language directory to the new one:
 
 ```sh
-cp -r docs/zh-CN/* docs/<lang>/
+cp -r docs/zh_cn/* docs/<lang>/
 ```
 
 ### Translate Documents

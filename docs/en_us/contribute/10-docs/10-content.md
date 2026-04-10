@@ -11,7 +11,7 @@ The sidebar is automatically generated based on the directory structure. The rel
 Directory Structure:
 
 - `docs/`
-  - `<lang>`: Language directory, e.g., `zh-CN/`, `en-US/`.
+  - `<lang>`: Language directory, e.g., `zh_cn/`, `en_us/`.
     - `<section>`: Section directory, e.g., `contribute/`, `player/`.
       - `index.md`: Section home page document, used to determine the title of the section in the sidebar.
       - `**/`: Any subdirectory.

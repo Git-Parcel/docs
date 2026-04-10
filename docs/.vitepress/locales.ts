@@ -1,8 +1,8 @@
 import { defineLocale } from './utils/locale.ts'
 
 export default {
-  'zh-CN': defineLocale({
-    lang: 'zh-CN',
+  'zh_cn': defineLocale({
+    lang: 'zh_cn',
     translation: {
       label: '简体中文',
       title: 'Git Parcel',
@@ -25,8 +25,8 @@ export default {
       },
     },
   }),
-  'en-US': defineLocale({
-    lang: 'en-US',
+  'en_us': defineLocale({
+    lang: 'en_us',
     translation: {
       label: 'English',
       title: 'Git Parcel',

@@ -11,7 +11,7 @@ title: 内容贡献指南
 目录结构：
 
 - `docs/`
-  - `<lang>/` 语言目录，例如 `zh-CN/`, `en-US/`
+  - `<lang>/` 语言目录，例如 `zh_cn/`, `en_us/`
     - `<section>/` 板块目录，例如 `contribute/`, `player/`
       - `index.md` 板块首页文档，用于确定该板块在侧边栏中的标题。
       - `**/` 任意子目录

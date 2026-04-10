@@ -9,7 +9,7 @@ title: Documentation Project Architecture
 - `docs/`
   - `.vitepress/`: VitePress configuration directory, containing configuration scripts.
   - `public/`: Static asset directory, e.g., logos, images, etc.
-  - `<lang>`: Language directories, e.g., `zh-CN/`, `en-US/`.
+  - `<lang>`: Language directories, e.g., `zh_cn/`, `en_us/`.
   - `index.md`: Home page.
 - `dist/`: Build output directory.
 - `scripts/`
