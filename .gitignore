@@ -2,7 +2,8 @@ node_modules/
 
 # IDEs
 .idea/
-.vscode/
+.vscode/*
+!.vscode/extensions.json
 
 # Generated files
 /dist/
