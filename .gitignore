@@ -21,6 +21,7 @@ node_modules/
 /.ai/
 .clinerules/
 .cursorrules/
+.kilo/
 .marscode/
 .lingma/
 .trae/
