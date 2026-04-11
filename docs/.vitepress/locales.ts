@@ -4,7 +4,7 @@ export default {
   zh_cn: defineLocale({
     lang: 'zh_cn',
     translation: {
-      label: '简体中文',
+      label: '简体中文 (中国大陆)',
       title: 'Git Parcel',
       description: 'Git Parcel 文档',
       themeConfig: {
@@ -28,7 +28,7 @@ export default {
   en_us: defineLocale({
     lang: 'en_us',
     translation: {
-      label: 'English',
+      label: 'English (US)',
       title: 'Git Parcel',
       description: 'Git Parcel Documentation',
       themeConfig: {
