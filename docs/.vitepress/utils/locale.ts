@@ -71,10 +71,10 @@ export function defineLocale(options: Options) {
 
       sidebar: buildSidebars(opts.base, opts.lang),
       editLink: {
-        pattern:
-          `https://github.com/Git-Parcel/docs/edit/main/docs/${opts.lang}/:path`,
+        pattern: 'https://github.com/Git-Parcel/docs/edit/main/docs/:path',
         text: t.themeConfig.editLink.text,
       },
+
       lastUpdated: { text: t.themeConfig.lastUpdated.text },
     },
   } satisfies LocaleConfigValue<DefaultTheme.Config>
