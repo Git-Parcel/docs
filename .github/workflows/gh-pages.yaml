@@ -19,6 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          # https://vitepress.dev/reference/default-theme-last-updated
+          fetch-depth: 0
       - uses: actions/configure-pages@v4
       - uses: denoland/setup-deno@v2
         with:

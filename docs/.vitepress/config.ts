@@ -35,6 +35,8 @@ let config: UserConfig = {
     ['link', { rel: 'icon', href: `${BASE}/logo/32x.png` }],
   ],
 
+  lastUpdated: true,
+
   themeConfig: {
     externalLinkIcon: true,
     logo: '/logo/128x.png',
@@ -61,7 +63,6 @@ let config: UserConfig = {
         link: 'https://github.com/Git-Parcel',
       },
     ],
-
     footer: {
       message: 'License: MIT',
     },
