@@ -26,6 +26,10 @@ type Options = {
       }
       editLink: { text: string }
       lastUpdated: { text: string }
+      /**
+       * @see DefaultTheme.LocalSearchOptions.locales
+       */
+      search?: Partial<Omit<DefaultTheme.LocalSearchOptions, 'locales'>>
     }
   }
 }
@@ -75,6 +79,16 @@ export function defineLocale(options: Options) {
         text: t.themeConfig.editLink.text,
       },
 
+      search: {
+        provider: 'local',
+        options: {
+          locales: {
+            ...(t.themeConfig.search
+              ? { [opts.lang]: t.themeConfig.search }
+              : {}),
+          },
+        },
+      },
       lastUpdated: { text: t.themeConfig.lastUpdated.text },
     },
   } satisfies LocaleConfigValue<DefaultTheme.Config>

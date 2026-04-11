@@ -42,20 +42,6 @@ let config: UserConfig = {
     logo: '/logo/128x.png',
     search: {
       provider: 'local',
-      options: {
-        miniSearch: {
-          options: {
-            processTerm: (term) => {
-              term = term.toLowerCase()
-                .replace(/([\u4e00-\u9fff])/g, '$1 ')
-                .trim().replace(/\s+/g, ' ')
-              const terms = term.split(' ')
-              return terms.length === 1 ? term : terms
-            },
-          },
-          searchOptions: {},
-        },
-      },
     },
     socialLinks: [
       {
