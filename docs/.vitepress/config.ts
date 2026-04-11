@@ -35,7 +35,6 @@ let config: UserConfig = {
     ['link', { rel: 'icon', href: `${BASE}/logo/32x.png` }],
   ],
 
-  lang: 'zh_cn',
   themeConfig: {
     externalLinkIcon: true,
     logo: '/logo/128x.png',
