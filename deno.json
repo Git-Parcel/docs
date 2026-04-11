@@ -23,9 +23,7 @@
   "lint": {
     "include": [
       "docs/.vitepress",
-      "scripts/",
-      "lib/",
-      "test/"
+      "scripts/"
     ],
     "rules": {
       "exclude": [
@@ -61,9 +59,7 @@
       "**/*.json",
       ".github/",
       "docs/",
-      "scripts/",
-      "lib/",
-      "test/"
+      "scripts/"
     ],
     "exclude": []
   }
